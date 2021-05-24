@@ -3,10 +3,14 @@ package id.ac.unhas.roomdb_d121191051
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
+import androidx.room.RoomDatabase
+import id.ac.unhas.roomdb_d121191051.Note
+import id.ac.unhas.roomdb_d121191051.NoteDao
 
 @Database(entities = [Note::class], exportSchema = false, version = 1)
-abstract class AppDatabase RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
     abstract fun noteDao(): NoteDao
+
     companion object {
 
         private const val DB_NAME = "NOTE_DB"
