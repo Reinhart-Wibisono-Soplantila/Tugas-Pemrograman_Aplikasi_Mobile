@@ -1,11 +1,11 @@
-package id.ac.unhas.roomdb_d121191051
+package id.ac.unhas.roomdb_d121191051.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import id.ac.unhas.roomdb_d121191051.Note
-import id.ac.unhas.roomdb_d121191051.NoteDao
+import id.ac.unhas.roomdb_d121191051.db.Note.Note
+import id.ac.unhas.roomdb_d121191051.db.Note.NoteDao
 
 @Database(entities = [Note::class], exportSchema = false, version = 1)
 abstract class AppDatabase : RoomDatabase() {

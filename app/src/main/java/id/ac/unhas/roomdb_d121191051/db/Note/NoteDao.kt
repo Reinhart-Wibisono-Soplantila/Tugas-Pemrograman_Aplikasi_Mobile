@@ -1,4 +1,4 @@
-package id.ac.unhas.roomdb_d121191051
+package id.ac.unhas.roomdb_d121191051.db.Note
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
@@ -9,7 +9,7 @@ interface NoteDao {
     fun getNotes(): LiveData<List<Note>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insertNote(note:Note)
+    suspend fun insertNote(note: Note)
 
     @Delete
     suspend fun deleteNote(note: Note)

@@ -1,4 +1,4 @@
-package id.ac.unhas.roomdb_d121191051
+package id.ac.unhas.roomdb_d121191051.db.Note
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
