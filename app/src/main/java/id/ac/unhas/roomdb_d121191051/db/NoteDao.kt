@@ -1,4 +1,4 @@
-package id.ac.unhas.roomdb_d121191051.db.Note
+package id.ac.unhas.roomdb_d121191051.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

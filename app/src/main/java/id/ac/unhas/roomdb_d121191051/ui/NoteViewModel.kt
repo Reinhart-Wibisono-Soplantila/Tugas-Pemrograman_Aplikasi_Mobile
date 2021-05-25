@@ -3,8 +3,8 @@ package id.ac.unhas.roomdb_d121191051.ui
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
-import id.ac.unhas.roomdb_d121191051.db.Note.Note
-import id.ac.unhas.roomdb_d121191051.db.Note.NoteRepository
+import id.ac.unhas.roomdb_d121191051.db.Note
+import id.ac.unhas.roomdb_d121191051.db.NoteRepository
 
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
 

@@ -1,11 +1,10 @@
-package id.ac.unhas.roomdb_d121191051.db.Note
+package id.ac.unhas.roomdb_d121191051.db
 
 import android.app.Application
 import androidx.lifecycle.LiveData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import id.ac.unhas.roomdb_d121191051.db.AppDatabase
 
 class NoteRepository(application: Application) {
     private val noteDao: NoteDao?

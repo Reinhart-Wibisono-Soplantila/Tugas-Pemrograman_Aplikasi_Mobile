@@ -1,4 +1,4 @@
-package id.ac.unhas.roomdb_d121191051.db.Note
+package id.ac.unhas.roomdb_d121191051.db
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -11,4 +11,4 @@ data class Note (
     val id: Int? = null,
     @ColumnInfo(name="note")
     var note: String
-        )
+    )

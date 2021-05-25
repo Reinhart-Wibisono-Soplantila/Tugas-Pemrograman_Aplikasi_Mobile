@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import id.ac.unhas.roomdb_d121191051.R
-import id.ac.unhas.roomdb_d121191051.db.Note.Note
+import id.ac.unhas.roomdb_d121191051.db.Note
 import kotlinx.android.synthetic.main.item_note.view.*
 
 
