@@ -6,9 +6,12 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import id.ac.unhas.roomdb_d121191051.R
+import id.ac.unhas.roomdb_d121191051.db.Note.Note
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
